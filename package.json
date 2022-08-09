@@ -1,0 +1,24 @@
+{
+  "name": "selenamodas",
+  "version": "0.0.1",
+  "description": "The principal idea is create the site to clients see pieces, choice then and reserve it.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KennysSparda/SelenaModas.git"
+  },
+  "author": "Swygax",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KennysSparda/SelenaModas/issues"
+  },
+  "homepage": "https://github.com/KennysSparda/SelenaModas#readme",
+  "dependencies": {
+    "next": "^12.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

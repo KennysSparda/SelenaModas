@@ -1,0 +1,51 @@
+
+.navbar {
+  max-width: 90%;
+  margin: 0px auto;
+  padding: 10px auto;
+  text-align: left;
+}
+
+.navbar-body {
+  position: fixed;
+  width: auto;
+  height: 50px auto;
+  padding: 4px;
+  left: 0;
+  right: 0;
+  box-shadow: 0px 0px 10px var(--back);
+  background-image: linear-gradient( to bottom right, var(--primary), var(--back), var(--primary));
+}
+
+.menu {
+  display: flex;
+  float: right;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 722px) {
+
+  .navbar {
+    text-align: center;
+  }
+  
+  .navbar a {
+    float: none;
+    display: block;
+  }
+
+  .navbar img {
+    text-align: center;
+  }
+
+  .menu {
+    float: none;
+    display: block;
+  }
+}

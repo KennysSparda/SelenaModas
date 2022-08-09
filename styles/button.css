@@ -1,0 +1,19 @@
+.Button {
+  text-align: center;
+  font: 13px sans-serif;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 20px;
+  color: var(--back);
+  background: var(--primary);
+  border: var(--back) 1px outset;
+}
+
+.Button:hover {
+  color: var(--text);
+  background-image: linear-gradient( to bottom right, var(--primary), var(--back), var(--primary));
+}
+
+a.Button {
+  text-decoration: none;
+}

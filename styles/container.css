@@ -1,0 +1,22 @@
+section {
+  padding-top: 100px;
+  text-align: center;
+  margin: 0px auto;
+  height: 70vh;
+  width: 70vw;
+  left: 0;
+  right: 0;
+}
+
+.container{
+  border-radius: 20px;
+  color: var(--primary);
+  background-color: var(--back);
+}
+
+@media screen and (max-width: 722px) {
+  .container {
+    height: 90%;
+    width: auto;
+  }
+}

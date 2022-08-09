@@ -1,0 +1,11 @@
+:root {
+  --primary: #ddb4e0;
+  --text: #424245;
+  --back: #fafafa;
+}
+
+body {
+  background :var(--primary);
+  margin: 0px;
+}
+
